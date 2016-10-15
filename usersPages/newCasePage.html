@@ -51,6 +51,7 @@
 
 									<form method="post" action="#">
 										<div class="formField">
+											<label>Your name</label>
 											<input type="text" name="name" id="name" placeholder="Full Name" />
 										</div>
 										<div class="formField">
@@ -58,13 +59,16 @@
 											<input type="date" name="date" id="dob" placeholder="Dathe of birth" />
 										</div>
 										<div class="formField">
+											<label>Your full address, incl. post code</label>
 											<input type="text" name="address" id="address" placeholder="Full address" />
 										</div>
 										<div class="formField">
+											<label>Contact number</label>
 											<input type="tel" name="tel" id="phone" placeholder="Phone number" />
 										</div>
 										<div class="formField">
 											<div class="select-wrapper">
+												<label>What's the area your problem related to</label>
 												<select name="department" id="department">
 													<option value="">Area</option>
 													<option value="employmentIssues">Employment issues</option>
@@ -79,14 +83,17 @@
 											</div>
 										</div>
 										<div class="formField">
+											<label>Describe your problem as detailed as you can</label>
 											<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
 										</div>
 										<div class="formField">
-											<input type="radio" name="urgency" value="extremal" checked> Extrimal<br>
-											<input type="radio" name="urgency" value="urgent"> Urgent<br>
-											<input type="radio" name="urgency" value="not urgent"> Not urgent
+											<label>What the urgency of your problem (How fast it must be soled)?</label>
+											<input type="radio" name="urgency" value="extremal" checked> Extrimal (1-2 days)<br>
+											<input type="radio" name="urgency" value="urgent"> Urgent (1 week)<br>
+											<input type="radio" name="urgency" value="not urgent"> Not urgent (>1week)
 										</div>
 										<div class="formField">
+											<label>Attach files if needed</label>
 											<input type="file" name="attachedfile" maxlength="100" allow="text/*" >
 										</div>
 										<div class="formField">
