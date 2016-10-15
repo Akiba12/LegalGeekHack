@@ -1,1 +1,3 @@
 # LegalGeekHack
+
+LegalGeek Hackathon project
